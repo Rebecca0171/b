@@ -42,3 +42,12 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
           return "Depois da chuva";
         }
       }
+    }
+  } else {
+    if (gostaDeFantasia) {
+      return "A viagem de chihiro";
+    } else {
+      return "O feitiço do tempo";
+    }
+  }
+}
